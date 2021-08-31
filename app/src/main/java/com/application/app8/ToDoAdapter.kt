@@ -12,19 +12,14 @@ import kotlinx.android.synthetic.main.item_todo.view.*
 
 class ToDoAdapter(
 
-
-    //
     private val context: Context,
     private val listener: TodoCLickListener
-    //
 
-
-    //var todos: ArrayList<Note>
 ): RecyclerView.Adapter<ToDoAdapter.ToDoViewHolder>(){
 
-    //
+
     var todos: ArrayList<Note>()
-    //
+
 
 
     inner class ToDoViewHolder(itemView:View):RecyclerView.ViewHolder(itemView) {
